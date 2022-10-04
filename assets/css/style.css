@@ -1,12 +1,14 @@
 body{
     margin: 20px;
  }
+ 
  .wrapper{
      margin: 0 auto; 
      width: 700px; 
      text-align: center; 
       
  }
+ 
  .finish-section{
      margin: 0 auto; 
      width: 900px; 
@@ -20,7 +22,7 @@ body{
   }
  
  .all_btn{
-     background: lightblue; 
+     background: lightskyblue; 
      padding: 10px;
      margin: 10px;
      width: 30%; 
@@ -29,28 +31,27 @@ body{
      color: white;   
      font-size: 1.em;
      text-align: center;
-     /* cursor: pointer;  */
-     
-     
+     /* cursor: pointer;  */          
  }
+
  .myBtn{
-     background: lightblue; 
+     background: lightskyblue; 
      padding: 10px;
      margin: 10px; 
      border: 1px solid black;
      border-radius: 5px;
      color: white;   
-     font-size: 1.em;
-     
- 
+     font-size: 1.em;      
  }
  
  button{
      background: lightskyblue; 
      padding: 12px;
+     margin-top: 10px;
      color: white;
      font-weight: 900;
      font-size: larger;
+     border-radius: 9px;
  }
  
  @media only screen 
@@ -59,7 +60,7 @@ body{
  
 
      .all_btn{
-         background: lightblue; 
+         background: lightskyblue; 
          padding: 10px;
          margin: 20px;
          width: 100%; 
@@ -68,10 +69,9 @@ body{
          color: white;   
          font-size: 1.em;
          text-align: center;
-         /* cursor: pointer;  */
-         
-         
+         /* cursor: pointer;  */                 
      }
+
      .wrapper{
          margin: 0px;
          text-align: justify;
@@ -84,13 +84,11 @@ body{
          text-align: left;
      }
  
-
      .finish-section{
          margin: 0px; 
          width: 100%; 
          visibility: hidden;
      }
-     
      
      .final-page{
  
