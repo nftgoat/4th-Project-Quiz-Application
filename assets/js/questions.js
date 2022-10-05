@@ -17,31 +17,30 @@ var firstPageEl = document.querySelector(".first-page");
 // Quiz questions
 var questions = [
     {
-        title: "Commonly used data types DO NOT include:",
-        choices: ["strings", "booleans", "alerts", "numbers"],
-        answer: "alerts",
+        title: "What type of file is commonly used to style a webpage",
+        choices: ["HTML", "CSS", "Word", "Powerpoint"],
+        answer: "CSS",
     },
     {
-        title: "The condition in an if / else statement is enclosed within ____.",
-        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-        answer: "parentheses",
+        title: "A ________ is a container for storing data (storing data values).",
+        choices: ["French Bulldog", "Number", "Boolean", "Variable"],
+        answer: "Variable",
     },
     {
-        title: "There are 3 different ways in which a JavaScript code can be involved in an HTML file. Selct the one that's not correct.",
-        choices: ["Inline", "Import", "External", "Internal"],
-        answer: "Import",
+        title: "Which data type used in JavaScript represents one of two values: true or false.",
+        choices: ["Number", "String", "Boolean", "null"],
+        answer: "Boolean",
     },
     {
-        title: "How to create an array in js ?",
+        title: "How do you create an array in JavaScript?",
         choices: ["var A[]=", "var A{}=", "var A=[]", "var A={}"],
 
         answer: "var A=[]",
     },
     {   
-        title: "HTML element that can be accessed in a Javascript code: Chose the one that will return an array of elements",
-        choices: ["getElementById(‘idname’)", "getElementsByClass(‘classname’)", 
-        "getElementsByTagName(‘tagname’)", "querySelectorAll()"],
-        answer: "querySelectorAll()",
+        title: "What does the acronym DOM stand for",
+        choices: ["Document Object Model", "Document Orientation Model", "Don't Order McDonalds", "Dictator On Macaroni"],
+        answer: "Document Object Model",
     }
 ]
  /**Create next questions to be added to the HTML document dynamically*/
