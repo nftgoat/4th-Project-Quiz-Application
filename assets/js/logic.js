@@ -73,7 +73,7 @@ function onclickHandler(event) {
         timeElement.textContent = "Time:" + " " + timer;
         var HighScores = timer;
         localStorage.getItem(HighScores)
-        finalScore.textContent = "Your finally score is: " + HighScores;
+        finalScore.textContent = "Your final score is: " + HighScores;
          localStorage.setItem("HighScores", HighScores)
  
     }
